@@ -21,3 +21,19 @@ This is a backend project for an e-commerce application built using **Flask**, *
 
 ## 📂 Folder Structure
 
+ecommerce-backend-flask/
+│
+├── app.py
+├── models/
+│ └── user_model.py
+│ └── product_model.py
+├── routes/
+│ └── auth_routes.py
+│ └── product_routes.py
+├── utils/
+│ └── jwt_utils.py
+│ └── db_connect.py
+├── requirements.txt
+├── .env
+└── README.md
+
